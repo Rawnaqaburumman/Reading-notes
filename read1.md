@@ -10,8 +10,10 @@ Means that abilities can be developed through perseverance and effort ,intellige
 -Perseverance\
 -gumption traps\
 -maintaining a growth mindset.  
-The growth mindset can open pathways to more creativity and possibility, and enable the setting of higher goals and more achievement.\
-***Fixed Mindset  VS  Growth Mindset***\
+### The growth mindset can open pathways to more creativity and possibility, and enable the setting of higher goals and more achievement.
+
+***Fixed Mindset  VS  Growth Mindset***
+
 ![image](https://irp-cdn.multiscreensite.com/069d5d93/dms3rep/multi/fixed.png)
 
 
