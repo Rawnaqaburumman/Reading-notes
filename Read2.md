@@ -14,4 +14,14 @@
  ### Git :
  A DVCS that stores data in a file system made up of snapshots. Each time you save a changed version of your project — called commit — Git creates a snapshot of the file and stores a reference to it. If the file has not changed, Git only stores a reference to the already-stored identical version of it.
   
+ ### Default Text Editor
+ Without configuration of a default text editor, Git will use the system’s default editor–most likely Vim. To configure a different text editor, such as Emacs, type the following into your Terminal or Command Line
+ 
+using commant you can :
+* Importing
+* Cloning
+* Saving Changes
+* Check File Status
+* Tracking and Staging a New File
+* Pushing Changes
  
