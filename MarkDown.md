@@ -3,7 +3,8 @@
 
 Is a way to style text on the web,control the display of the document,formatting words,adding images,creating lists,Markdown is just regular text with a few non-alphabetic characters thrown in, like # or *.
 Files with it have `md` or `markdown` extension.
-## Example: 
+# Example: 
+
 ### 1-Styling text:
 Style | syntax
 ------------ | -------------
