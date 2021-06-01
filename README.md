@@ -1,4 +1,5 @@
 # Reading-notes
+<<<<<<< HEAD
 # Hello!
 My name is  `Rawnaq Abu Rumman `, I'm 24,I studied mechatronics
 engineering at the University of Jordan. Interested in programming
@@ -19,3 +20,5 @@ in Arabic language. Its interesting experience learning here in ASAC
 
 
 
+=======
+>>>>>>> 41229fa9ce1bfb61d2dd983d49f10e7fbd8d8b0e
