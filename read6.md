@@ -54,10 +54,10 @@ h1 {
 </html>
   `````
   
-  3. Inline CSS
+ 3. Inline CSS
 An inline style may be used to apply a unique style for a single element.To use inline styles, add the style attribute to the relevant element. The style attribute can contain any CSS property.
-  `````
-  <!DOCTYPE html>
+````
+<!DOCTYPE html>
 <html>
 <body>
 
@@ -65,17 +65,14 @@ An inline style may be used to apply a unique style for a single element.To use 
 <p style="color:red;">This is a paragraph.</p>
 
 </body>
-</html>
-`````
+</html> 
+````
   
-  
-
-
-
-
-# CSS color Property:
+  #  CSS color Property:
   The color property specifies the color of text.
 Tip: Use a background color combined with a text color that makes the text easy to read.
   `body {color: #92a8d1;}`
+
  ` body {color: rgb(201, 76, 76);}`
+ 
 `  body {color: hsl(89, 43%, 51%);}`
