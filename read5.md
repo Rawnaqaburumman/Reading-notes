@@ -24,12 +24,12 @@
 # Expressions:
 An expression is any valid unit of code that resolves to a value.Every syntactically valid expression resolves to some value but conceptually, there are two types of expressions: with side effects (for example: those that assign value to a variable) and those that in some sense evaluate and therefore resolve to a value.
 ##### JavaScript has the following expression:
-1. Primary expressions: Basic keywords and general expressions in JavaScript ex : `this` 
-2. Arithmetic: evaluates to a number,(Generally uses arithmetic operators.)
-3. String: evaluates to a character string,  (Generally uses string operators.)
-4. Logical: evaluates to true or false. (Often involves logical operators.)
-5. Primary expressions: Basic keywords and general expressions in JavaScript.
-6. Left-hand-side expressions: Left values are the destination of an assignment.
+*  Primary expressions: Basic keywords and general expressions in JavaScript ex : `this` 
+* Arithmetic: evaluates to a number,(Generally uses arithmetic operators.)
+* String: evaluates to a character string,  (Generally uses string operators.)
+* Logical: evaluates to true or false. (Often involves logical operators.)
+* Primary expressions: Basic keywords and general expressions in JavaScript.
+* Left-hand-side expressions: Left values are the destination of an assignment.
 
 # Loops : 
 Loops offer a quick and easy way to do something repeatedly.
