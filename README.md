@@ -23,6 +23,9 @@ in Arabic language. Its interesting experience learning here in ASAC
 |5|[Git](https://rawnaqaburumman.github.io/Reading-notes/Git)
 |6| [Operators and Loop](https://rawnaqaburumman.github.io/Reading-notes/)
 |7|[Design web pages with CSS](https://rawnaqaburumman.github.io/Reading-notes/raed6)
+|5|[Git](https://rawnaqaburumman.github.io/Reading-notes/Git)
+|6| [Operators and Loop](https://rawnaqaburumman.github.io/Reading-notes/)
+|7|[Design web pages with CSS](https://rawnaqaburumman.github.io/Reading-notes/raed6)
 
 ## Code 201 Reading Notes: 
 ### Table of contents: 
