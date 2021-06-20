@@ -16,13 +16,32 @@ in Arabic language. Its interesting experience learning here in ASAC
 |3|[Revisions and the Cloud](https://rawnaqaburumman.github.io/Reading-notes/read2)
 |4|[Structure web pages with HTML](https://rawnaqaburumman.github.io/Reading-notes/read3)
 |5|[Dynamic web pages with JavaScript](https://rawnaqaburumman.github.io/Reading-notes/read4)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> f3d02f8f38c8193cc03050e720e2679b83f4ab97
+>>>>>>> 67d9fa92808af3b8fde1ffcd9afe701752d248eb
 |6|[Git](https://rawnaqaburumman.github.io/Reading-notes/Git)
 |7| [Operators and Loop](https://rawnaqaburumman.github.io/Reading-notes/)
 |8|[Design web pages with CSS](https://rawnaqaburumman.github.io/Reading-notes/raed6)
 |9|[Functins](https://rawnaqaburumman.github.io/Reading-notes/raed7)
+<<<<<<< HEAD
 |5|[Git](https://rawnaqaburumman.github.io/Reading-notes/Git)
 |6| [Operators and Loop](https://rawnaqaburumman.github.io/Reading-notes/)
 |7|[Design web pages with CSS](https://rawnaqaburumman.github.io/Reading-notes/raed6)
+=======
+<<<<<<< HEAD
+=======
+=======
+|5|[Git](https://rawnaqaburumman.github.io/Reading-notes/Git)
+|6| [Operators and Loop](https://rawnaqaburumman.github.io/Reading-notes/)
+|7|[Design web pages with CSS](https://rawnaqaburumman.github.io/Reading-notes/raed6)
+>>>>>>> 2ecdcc284adf464bb66d0b88ff0d91b29de16013
+
+>>>>>>> f3d02f8f38c8193cc03050e720e2679b83f4ab97
+>>>>>>> 67d9fa92808af3b8fde1ffcd9afe701752d248eb
 
 ## Code 201 Reading Notes: 
 ### Table of contents: 
