@@ -34,22 +34,22 @@ in Arabic language. Its interesting experience learning here in ASAC
 |--------|------|
 |1|[Introductory HTML and JavaScript](https://rawnaqaburumman.github.io/Reading-notes/read8)|
 |2|[Basics of HTML, CSS & JS](https://rawnaqaburumman.github.io/Reading-notes/read9)|
-|3|[](https://rawnaqaburumman.github.io/Reading-notes/read10)|
-|4|[](https://rawnaqaburumman.github.io/Reading-notes/read11)|
-|5|[](https://rawnaqaburumman.github.io/Reading-notes/read12)|
-|6|[](https://rawnaqaburumman.github.io/Reading-notes/read13)|
-|7|[](https://rawnaqaburumman.github.io/Reading-notes/read14)|
-|8|[](https://rawnaqaburumman.github.io/Reading-notes/read15)|
-|9|[](https://rawnaqaburumman.github.io/Reading-notes/read16)|
-|10|[](https://rawnaqaburumman.github.io/Reading-notes/read17)|
-|11|[](https://rawnaqaburumman.github.io/Reading-notes/read18)|
-|12|[](https://rawnaqaburumman.github.io/Reading-notes/read19)|
-|13|[](https://rawnaqaburumman.github.io/Reading-notes/read21)|
-|14|[](https://rawnaqaburumman.github.io/Reading-notes/read22)|
-|15|[](https://rawnaqaburumman.github.io/Reading-notes/read23)|
-|16|[](https://rawnaqaburumman.github.io/Reading-notes/read24)|
-|17|[](https://rawnaqaburumman.github.io/Reading-notes/read25)|
-|18|[](https://rawnaqaburumman.github.io/Reading-notes/read26)|
+|3|[]()|
+|4|[]()|
+|5|[]()|
+|6|[]()|
+|7|[]()|
+|8|[]()|
+|9|[]()|
+|10|[]()|
+|11|[]()|
+|12|[]()|
+|13|[]()|
+|14|[]()|
+|15|[]()|
+|16|[]()|
+|17|[]()|
+|18|[]()|
 
 
 @Rawnaqaburumman
