@@ -75,6 +75,6 @@ CSS allows you to create rules that control the way that each individual box (an
 colors =['white', 'black', ' custom '];`
 
 ### EXPRESSIONS
-An expression evaluates into (results in) a single value. Broadly speaking there are two types of expressions: 
+An **expression** evaluates into (results in) a single value. Broadly speaking there are two types of expressions: 
 - EXPRESSIONS THAT JUST ASSIGN AVALUE TO A VARIABLE
 - EXPRESSIONS THAT USE TWO OR MORE VALUES TO RETURN A SINGLE VALUE
