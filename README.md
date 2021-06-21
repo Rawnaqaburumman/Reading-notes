@@ -33,7 +33,7 @@ in Arabic language. Its interesting experience learning here in ASAC
 
 |No. | Name |
 | ------------- | ------------- |
-| 1.  | |[Introductory HTML and JavaScript](https://rawnaqaburumman.github.io/Reading-notes/read8)  |
+| 1.  | [Introductory HTML and JavaScript](https://rawnaqaburumman.github.io/Reading-notes/read8)  |
 | 2.  | [Basics of HTML, CSS & JS](https://rawnaqaburumman.github.io/Reading-notes/read9)  |
 
 
