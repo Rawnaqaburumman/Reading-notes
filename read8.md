@@ -1,6 +1,5 @@
  # Introductory HTML and JavaScript:
- 
- ## Introduction: 
+  
  
 ### How do people access the web?
 By **Web Browsers**,Such as :Firefox, Internet Explorer, Safari,
