@@ -34,22 +34,7 @@ in Arabic language. Its interesting experience learning here in ASAC
 |--------|------|
 |1|[Introductory HTML and JavaScript](https://rawnaqaburumman.github.io/Reading-notes/read8)
 |2|[Basics of HTML, CSS & JS](https://rawnaqaburumman.github.io/Reading-notes/read9)
-|3|[]()
-|4|[]()
-|5|[]()
-|6|[]()
-|7|[]()
-|8|[]()
-|9|[]()
-|10|[]()
-|11|[]()
-|12|[]()
-|13|[]()
-|14|[]()
-|15|[]()
-|16|[]()
-|17|[]()
-|18|[]()
+
 
 
 @Rawnaqaburumman
