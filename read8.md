@@ -1,6 +1,5 @@
- # Introductory HTML and JavaScript:
-  
- 
+
+## Introductory HTML and JavaScript:
 ### How do people access the web?
 By **Web Browsers**,Such as :Firefox, Internet Explorer, Safari,
 Chrome, and Opera.Web Browser software installs on many devicessuch desktop computers,laptops, tablets, and mobile phones
@@ -29,7 +28,7 @@ headings).</p>
 </body>
 </html> 
 ```
-![Structure](https://replit.com/@rawnaqaburumman/Reading-notes#structure.PNG)
+
 
 ## Extra Markup: 
 Since the web was first created, there have been several different versions of HTML.Each new version was designed to be an improvement on the last (with new elements and attributes added and older code
