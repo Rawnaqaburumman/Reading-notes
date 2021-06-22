@@ -1,12 +1,12 @@
- # Introductory HTML and JavaScript:
- ## Introduction: 
+
+## Introductory HTML and JavaScript:
 ### How do people access the web?
-By **Web Browsers **,Such as :Firefox, Internet Explorer, Safari,
+By **Web Browsers**,Such as :Firefox, Internet Explorer, Safari,
 Chrome, and Opera.Web Browser software installs on many devicessuch desktop computers,laptops, tablets, and mobile phones
 When you ask your browser for a web page, the request is sent
 across the Internet to a special computer known as a **Web Server** which hosts the website.
 
-### how to write web pages and Structure the document ?
+### How to write web pages and Structure the document ?
 HTML Describes the Structure of Pages, To
 describe the structure of a web page, we add code to the words we want to appear on the page between elements, inside angled brackets 
 every element tells the browser something about the information in it.
@@ -28,7 +28,7 @@ headings).</p>
 </body>
 </html> 
 ```
-![Structure](https://replit.com/@rawnaqaburumman/Reading-notes#structure.PNG)
+
 
 ## Extra Markup: 
 Since the web was first created, there have been several different versions of HTML.Each new version was designed to be an improvement on the last (with new elements and attributes added and older code
@@ -77,5 +77,5 @@ A SCRIPT IS A SERI ES OF INSTRUCTIONS that a computer can follow to achieve a go
 ***web server:*** are special computers that are constantly connected to the Internet, and are optimized to send web pages
 out to people who request them.
 
-***Screen readers: *** are programs that read out the contents of a computer screen to a user. They are commonly used by people with visual impairments.
+***Screen readers:*** are programs that read out the contents of a computer screen to a user. They are commonly used by people with visual impairments.
 
