@@ -35,6 +35,7 @@ in Arabic language. Its interesting experience learning here in ASAC
 | ------------- | ------------- |
 | 1.  | [Introductory HTML and JavaScript](https://rawnaqaburumman.github.io/Reading-notes/read8)  |
 | 2.  | [Basics of HTML, CSS & JS](https://rawnaqaburumman.github.io/Reading-notes/read9)  |
+| 2.  | [ HTML Lists, Control Flow with JS, and the CSS Box Model](https://rawnaqaburumman.github.io/Reading-notes/read10)  |
 
 
 
