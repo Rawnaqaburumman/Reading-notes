@@ -1,11 +1,9 @@
 # Reading-notes
 
 # Hello!
-My name is  Rawnaq Abu Rumman , I'm 24,I studied mechatronics
-engineering at the University of Jordan. Interested in programming
-I love discovery and learning. I am also a writer, writing articles
-in Arabic language. Its interesting experience learning here in ASAC
-## Code 102 Reading Notes: 
+Welcome in my website !
+this website contain all important information that i learned it in my learning journey in code felow .
+## Code 102 Reading Notes: Intro to Software Development
 ### Table of contents: 
 
 
@@ -28,7 +26,7 @@ in Arabic language. Its interesting experience learning here in ASAC
 |7|[Design web pages with CSS](https://rawnaqaburumman.github.io/Reading-notes/raed6)
 
 
-## Code 201 Reading Notes: 
+## Code 201 Reading Notes: Foundations of Software Development
 ### Table of contents: 
 
 |No. | Name |
@@ -41,7 +39,7 @@ in Arabic language. Its interesting experience learning here in ASAC
 
 
 
-## Code 301 Reading Notes: 
+## Code 301 Reading Notes: Intermediate Software Development
 ### Table of contents: 
 
 |No. | Name |
@@ -53,6 +51,8 @@ in Arabic language. Its interesting experience learning here in ASAC
 
 
 
+## Code 401 Reading Notes: Advanced Software Development
+### Table of contents: 
 
 
 
