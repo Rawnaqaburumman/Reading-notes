@@ -45,8 +45,7 @@ this website contain all important information that i learned it in my learning 
 |No. | Name |
 | ------------- | ------------- |
 | 1.  | [Introduction to React and Components](https://rawnaqaburumman.github.io/Reading-notes/read3011)  |
-
-
+| 2.  | [State and Props](https://rawnaqaburumman.github.io/Reading-notes/read3012)  |
 
 
 
