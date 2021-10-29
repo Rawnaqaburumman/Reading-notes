@@ -29,28 +29,28 @@ this website contain all important information that i learned it in my learning 
 ## Code 201 Reading Notes: Foundations of Software Development
 ### Table of contents: 
 
-|No. | Name |
-|-------------|-------------|
-|1.|[Introductory HTML and JavaScript](https://rawnaqaburumman.github.io/Reading-notes/read8)  |
-|2.|[Basics of HTML, CSS & JS](https://rawnaqaburumman.github.io/Reading-notes/read9)  |
-|3.|[ HTML Lists, Control Flow with JS, and the CSS Box Model](https://rawnaqaburumman.github.io/Reading-notes/read10)  |
-|4.|[ HTML Links, JS Functions, and Intro to CSS Layout](https://rawnaqaburumman.github.io/Reading-notes/read11)  |
-|5.|[HTML Images; CSS Color & Text](https://rawnaqaburumman.github.io/Reading-notes/read12)  |
-|6.|[Problem Domain, Objects, and the DOM](https://rawnaqaburumman.github.io/Reading-notes/read13)  |
-|7.|[Object-Oriented Programming, HTML Tables](https://rawnaqaburumman.github.io/Reading-notes/read14)  |
-|8.|[CSS Layout](https://rawnaqaburumman.github.io/Reading-notes/read15)  |
-|9.|[ Forms and Events](https://rawnaqaburumman.github.io/Reading-notes/read16)  |
-|10.|[JS Debugging](https://rawnaqaburumman.github.io/Reading-notes/read17)  |
-|11.|[Assorted Topics](https://rawnaqaburumman.github.io/Reading-notes/read18)  |
-|12.| [ Docs for the HTML Element & Chart.js](https://rawnaqaburumman.github.io/Reading-notes/read19)  |
-|13.|[ Local Storage](https://rawnaqaburumman.github.io/Reading-notes/read20)  |
-|14.a|[ CSS Transforms, Transitions, and Animations](https://rawnaqaburumman.github.io/Reading-notes/read21)  |
-|14.b|[  What Google Learned About Teams](https://rawnaqaburumman.github.io/Reading-notes/read22)  |
+|No.| Name|
+|--------|------|
+|1.|[Introductory HTML and JavaScript](https://rawnaqaburumman.github.io/Reading-notes/read8)  
+|2.|[Basics of HTML, CSS & JS](https://rawnaqaburumman.github.io/Reading-notes/read9)  
+|3.|[ HTML Lists, Control Flow with JS, and the CSS Box Model](https://rawnaqaburumman.github.io/Reading-notes/read10)  
+|4.|[ HTML Links, JS Functions, and Intro to CSS Layout](https://rawnaqaburumman.github.io/Reading-notes/read11)  
+|5.|[HTML Images; CSS Color & Text](https://rawnaqaburumman.github.io/Reading-notes/read12)  
+|6.|[Problem Domain, Objects, and the DOM](https://rawnaqaburumman.github.io/Reading-notes/read13)  
+|7.|[Object-Oriented Programming, HTML Tables](https://rawnaqaburumman.github.io/Reading-notes/read14)  
+|8.|[CSS Layout](https://rawnaqaburumman.github.io/Reading-notes/read15)  
+|9.|[ Forms and Events](https://rawnaqaburumman.github.io/Reading-notes/read16)  
+|10.|[JS Debugging](https://rawnaqaburumman.github.io/Reading-notes/read17)  
+|11.|[Assorted Topics](https://rawnaqaburumman.github.io/Reading-notes/read18)  
+|12.| [ Docs for the HTML Element & Chart.js](https://rawnaqaburumman.github.io/Reading-notes/read19)  
+|13.|[ Local Storage](https://rawnaqaburumman.github.io/Reading-notes/read20)  
+|14.a|[ CSS Transforms, Transitions, and Animations](https://rawnaqaburumman.github.io/Reading-notes/read21)  
+|14.b|[  What Google Learned About Teams](https://rawnaqaburumman.github.io/Reading-notes/read22)  
 ## Code 301 Reading Notes: Intermediate Software Development
 ### Table of contents: 
 
-|No. | Name |
-| ------------- | ------------- |
+|No.|Name|
+|--------|------|
 |1.|[Introduction to React and Components](https://rawnaqaburumman.github.io/Reading-notes/read3011)  |
 |2.|[State and Props](https://rawnaqaburumman.github.io/Reading-notes/read3012)  |
 |3.|[Passing Functions as Props](https://rawnaqaburumman.github.io/Reading-notes/read3013)  |
