@@ -69,7 +69,9 @@ this website contain all important information that i learned it in my learning 
 ### Table of contents: 
 
 
-
+|No.|Name|
+|--------|------|
+|1|[A beginner's guide to Big O Notation](https://rawnaqaburumman.github.io/Reading-notes/read41)
 
 
 
