@@ -22,3 +22,9 @@ If this file is being imported from another module, __name__ will be set to the 
 ### Advantages : 
 - If you import this script as a module in another script, the __name__ is set to the name of the script/module.
 - if __name__ == “main”: is used to execute some code only if the file was run directly, and not imported.
+
+# Recursion:
+- The process in which a function calls itself directly or indirectly is called recursion and the corresponding function is called as **recursive function
+
+- In the recursive program, the solution to the base case is provided and the solution of the bigger problem is expressed in terms of smaller problems. 
+- Recursion provides a clean and simple way to write code
