@@ -10,9 +10,19 @@
  When you access a file on an operating system, a file path is required. The file path is a string that represents the location of a file.
  
  # Exceptions versus Syntax Errors:
- - Syntax errors
-- The AssertionError Exception
-- The try and except Block: Handling Exceptions
+
+### The try and except Block: Handling Exceptions:
+used to catch and handle exceptions. Python executes code following the try statement as a “normal” part of the program
+
+- ![handing](https://files.realpython.com/media/try_except.c94eabed2c59.png)
 
 # Raising:
 - We can use raise to throw an exception if a condition occurs. The statement can be complemented with a custom exception.
+- ![Rising](https://files.realpython.com/media/assert.f6d344f0c0b4.png)
+
+## The else Clause:
+In Python, using the else statement, you can instruct a program to execute a certain block of code only in the absence of exceptions.
+
+- except is used to catch and handle the exception(s) that are encountered in the try clause.
+- else lets you code sections that should run only when no exceptions are encountered in the try clause.
+- finally enables you to execute sections of code that should always run, with or without any previously encountered exceptions.
