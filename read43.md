@@ -8,3 +8,11 @@
  
  # File Paths:
  When you access a file on an operating system, a file path is required. The file path is a string that represents the location of a file.
+ 
+ # Exceptions versus Syntax Errors:
+ - Syntax errors
+- The AssertionError Exception
+- The try and except Block: Handling Exceptions
+
+# Raising:
+- We can use raise to throw an exception if a condition occurs. The statement can be complemented with a custom exception.
