@@ -1,52 +1,132 @@
-# Caesar cipher
- cryptography, a Caesar cipher, also known as Caesar's cipher, the shift cipher, Caesar's code or Caesar shift, is one of the simplest and most widely known encryption techniques. It is a type of substitution cipher in which each letter in the plaintext is replaced by a letter some fixed number of positions down the alphabet. For example, with a left shift of 3, D would be replaced by A, E would become B, and so on. The method is named after Julius Caesar, who used it in his private correspondence.
+# Python Regular Expression Tutorial
+Discover the power of regular expressions with this tutorial. You will work with the re library, deal with pattern matching, learn about greedy and non-greedy matching, and much more!
 
-The encryption step performed by a Caesar cipher is often incorporated as part of more complex schemes, such as the Vigenère cipher, and still has modern application in the ROT13 system. As with all single-alphabet substitution ciphers, the Caesar cipher is easily broken and in modern practice offers essentially no communications security.
+Regular Expressions, often shortened as regex, are a sequence of characters used to check whether a pattern exists in a given text (string) or not. If you've ever used search engines, search and replace tools of word processors and text editors - you've already seen regular expressions in use. They are used at the server side to validate the format of email addresses or passwords during registration, used for parsing text data files to find, replace, or delete certain string, etc. They help in manipulating textual data, which is often a prerequisite for data science projects involving text mining.
 
-![0](https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Caesar_cipher_left_shift_of_3.svg/220px-Caesar_cipher_left_shift_of_3.svg.png)
+In the end, there is a case study - where you can put your knowledge in use! So let's regex...
 
-The action of a Caesar cipher is to replace each plaintext letter with a different one a fixed number of places down the alphabet. The cipher illustrated here uses a left shift of three, so that (for example) each occurrence of E in the plaintext becomes B in the ciphertext.
+# Regular Expressions in Python
 
+In Python, regular expressions are supported by the re module. That means that if you want to start using them in your Python scripts, you have to import this module with the help of import:
 
-## Example
-he transformation can be represented by aligning two alphabets; the cipher alphabet is the plain alphabet rotated left or right by some number of positions. For instance, here is a Caesar cipher using a left rotation of three places, equivalent to a right shift of 23 (the shift parameter is used as the key):
-
-![1](https://www9.0zz0.com/2021/06/28/15/562470362.png)
-
-When encrypting, a person looks up each letter of the message in the "plain" line and writes down the corresponding letter in the "cipher" line.
-
-```
-Plaintext:  THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG
-Ciphertext: QEB NRFZH YOLTK CLU GRJMP LSBO QEB IXWV ALD
+``` 
+import re
 ```
 
-Deciphering is done in reverse, with a right shift of 3.
+The re library in Python provides several functions that make it a skill worth mastering. You will see some of them closely in this tutorial.
 
-The encryption can also be represented using modular arithmetic by first transforming the letters into numbers, according to the scheme, A → 0, B → 1, ..., Z → 25.[2] Encryption of a letter x by a shift n can be described mathematically as:
+# Basic Patterns: Ordinary Characters
 
-![2](https://wikimedia.org/api/rest_v1/media/math/render/svg/77b59c7a676a99610ddee4ffc305aa7f9cda3b1a)
+You can easily tackle many basic patterns in Python using ordinary characters. Ordinary characters are the simplest regular expressions. They match themselves exactly and do not have a special meaning in their regular expression syntax.
 
-Decryption is performed similarly,
+Examples are 'A', 'a', 'X', '5'.
 
-![3](https://wikimedia.org/api/rest_v1/media/math/render/svg/8ed607e0202ff8d35aa41559f846cac9d358a362)
+Ordinary characters can be used to perform simple exact matches:
 
-The replacement remains the same throughout the message, so the cipher is classed as a type of monoalphabetic substitution, as opposed to polyalphabetic substitution.
+```
+pattern = r"Cookie"
+sequence = "Cookie"
+if re.match(pattern, sequence):
+    print("Match!")
+else: print("Not a match!")
+```
 
-## History and usage
+```Match!```
 
-The Caesar cipher is named after Julius Caesar, who, according to Suetonius, used it with a shift of three (A becoming D when encrypting, and D becoming A when decrypting) to protect messages of military significance. While Caesar's was the first recorded use of this scheme, other substitution ciphers are known to have been used earlier.
+Most alphabets and characters will match themselves, as you saw in the example.
 
-In April 2006, fugitive Mafia boss Bernardo Provenzano was captured in Sicily partly because some of his messages, clumsily written in a variation of the Caesar cipher, were broken. Provenzano's cipher used numbers, so that "A" would be written as "4", "B" as "5", and so on.
+The match() function returns a match object if the text matches the pattern. Otherwise, it returns None. The re module also contains several other functions, and you will learn some of them later on in the tutorial.
 
-In 2011, Rajib Karim was convicted in the United Kingdom of "terrorism offences" after using the Caesar cipher to communicate with Bangladeshi Islamic activists discussing plots to blow up British Airways planes or disrupt their IT networks. Although the parties had access to far better encryption techniques (Karim himself used PGP for data storage on computer disks), they chose to use their own scheme (implemented in Microsoft Excel), rejecting a more sophisticated code program called Mujahedeen Secrets "because 'kaffirs', or non-believers, know about it, so it must be less secure". This constituted an application of security through obscurity.
+For now, let's focus on ordinary characters!
 
-## Breaking the cipher
+Do you notice the r at the start of the pattern Cookie?
 
-The Caesar cipher can be easily broken even in a ciphertext-only scenario. Two situations can be considered:
+This is called a raw string literal. It changes how the string literal is interpreted. Such literals are stored as they appear.
 
-1. an attacker knows (or guesses) that some sort of simple substitution cipher has been used, but not specifically that it is a Caesar scheme.
-2. an attacker knows that a Caesar cipher is in use, but does not know the shift value.
+For example, \ is just a backslash when prefixed with an r rather than being interpreted as an escape sequence. You will see what this means with special characters. Sometimes, the syntax involves backslash-escaped characters, and to prevent these characters from being interpreted as escape sequences; you use the raw r prefix.
 
-In the first case, the cipher can be broken using the same techniques as for a general simple substitution cipher, such as frequency analysis or pattern words. While solving, it is likely that an attacker will quickly notice the regularity in the solution and deduce that a Caesar cipher is the specific algorithm employed.
+TIP: You don't actually need it for this example; however, it is a good practice to use it for consistency.
 
-In the second instance, breaking the scheme is even more straightforward. Since there are only a limited number of possible shifts (25 in English), they can each be tested in turn in a brute force attack. One way to do this is to write out a snippet of the ciphertext in a table of all possible shifts a technique sometimes known as "completing the plain component". The example given is for the ciphertext "EXXEGOEXSRGI"; the plaintext is instantly recognisable by eye at a shift of four. Another way of viewing this method is that, under each letter of the ciphertext, the entire alphabet is written out in reverse starting at that letter. This attack can be accelerated using a set of strips prepared with the alphabet written down in reverse order. The strips are then aligned to form the ciphertext along one row, and the plaintext should appear in one of the other rows.
+# Wild Card Characters: Special Characters
+
+Special characters are characters that do not match themselves as seen but have a special meaning when used in a regular expression. For simple understanding, they can be thought of as reserved metacharacters that denote something else and not what they look like.
+
+Let's check out some examples to see the special characters in action...
+
+But before you do, the examples below make use of two functions namely: search() and group().
+With the search function, you scan through the given string/sequence, looking for the first location where the regular expression produces a match.
+The group function returns the string matched by the re. 
+
+. - A period. Matches any single character except the newline character.
+
+```re.search(r'Co.k.e', 'Cookie').group()```
+
+```'Cookie'```
+
+^ - A caret. Matches the start of the string.
+
+This is helpful if you want to make sure a document/sentence starts with certain characters.
+
+```
+re.search(r'^Eat', "Eat cake!").group()
+
+## However, the code below will not give the same result. Try it for yourself:
+# re.search(r'^eat', "Let's eat cake!").group()
+```
+```'Eat'```
+
+$ - Matches the end of string.
+
+This is helpful if you want to make sure a document/sentence ends with certain characters.
+
+```
+re.search(r'cake$', "Cake! Let's eat cake").group()
+
+## The next search will return the NONE value, try it:
+# re.search(r'cake$', "Let's get some cake on our way home!").group()
+```
+
+```'cake'```
+
+[abc] - Matches a or b or c.
+
+[a-zA-Z0-9] - Matches any letter from (a to z) or (A to Z) or (0 to 9).
+
+
+\ - Backslash.
+Perhaps, the most diverse metacharacter!!
+
+* If the character following the backslash is a recognized escape character, then the special meaning of the term is taken.
+* Else if the character following the \ is not a recognized escape character, then the \ is treated like any other character and passed through.
+
+* \ can be used in front of all the metacharacters to remove their special meaning.
+
+
+There is a predefined set of special sequences that begin with '\' and are also very helpful when performing search and match. Let's look at some of them up close...
+
+\w - Lowercase 'w'. Matches any single letter, digit, or underscore.
+
+\W - Uppercase 'W'. Matches any character not part of \w (lowercase w).
+
+
+\s - Lowercase 's'. Matches a single whitespace character like: space, newline, tab, return.
+
+\S - Uppercase 'S'. Matches any character not part of \s (lowercase s).
+
+\d - Lowercase d. Matches decimal digit 0-9.
+
+\D - Uppercase d. Matches any character that is not a decimal digit.
+
+The + symbol used after the \d in the example above is used for repetition. You will see this in some more detail in the repetition section later on...
+
+\t - Lowercase t. Matches tab.
+
+\n - Lowercase n. Matches newline.
+
+\r - Lowercase r. Matches return.
+
+\A - Uppercase a. Matches only at the start of the string. Works across multiple lines as well.
+
+\Z - Uppercase z. Matches only at the end of the string.
+
+\b - Lowercase b. Matches only the beginning or end of the word.
